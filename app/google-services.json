@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "966657536943",
+    "firebase_url": "https://happy-head-default-rtdb.firebaseio.com",
+    "project_id": "happy-head",
+    "storage_bucket": "happy-head.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966657536943:android:cdfb3c9b9d85589387b55a",
+        "android_client_info": {
+          "package_name": "com.example.happyhead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966657536943-k6oa7icms5nuqbsh35g563qhsftj9t5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBok7ozxusef3OniE6otYB4wuE7annVn-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966657536943-k6oa7icms5nuqbsh35g563qhsftj9t5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
