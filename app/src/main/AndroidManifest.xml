@@ -16,9 +16,17 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <!-- Login Page -->
+        <activity android:name=".login.LoginActivity" />
+
+        <!-- Registration Page -->
+        <activity
+            android:name=".register.RegisterActivity"
+            android:label="Happy Head">
         </activity>
     </application>
 
