@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HappyHead"
         tools:targetApi="31">
+
         <activity
             android:name=".splash.SplashActivity"
             android:exported="true">
