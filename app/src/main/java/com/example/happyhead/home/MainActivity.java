@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(i_home);
                 draw.closeDrawer(GravityCompat.START);
                 break;
-//
+
 //            case R.id.nav_profile:
 //                Log.d("Hi", "hello");
 //                Intent i_profile = new Intent(this, ProfileActivity.class);
