@@ -47,21 +47,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-//        imageView = findViewById(R.id.imageView);
-//
-//        Toolbar toolbar = findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-//
-//        draw = findViewById(R.id.drawer_layout);
-//        NavigationView navView = findViewById(R.id.nav_view);
-//        navView.setNavigationItemSelectedListener(this);
-//
-//        //implement navigation bar icon
-//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, draw, toolbar, R.string.navigation_drawer_open,
-//                R.string.navigation_drawer_close);
-//        draw.addDrawerListener(toggle);
-//        toggle.syncState();
+        setContentView(R.layout.activity_main);
+       // imageView = findViewById(R.id.imageView);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        draw = findViewById(R.id.drawer_layout);
+        NavigationView navView = findViewById(R.id.nav_view);
+        navView.setNavigationItemSelectedListener(this);
+
+        //implement navigation bar icon
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, draw, toolbar, R.string.navigation_drawer_open,
+                R.string.navigation_drawer_close);
+        draw.addDrawerListener(toggle);
+        toggle.syncState();
 
     }
 
