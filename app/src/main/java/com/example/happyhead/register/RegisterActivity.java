@@ -27,7 +27,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-//import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestore;
 import com.example.happyhead.R;
 import com.example.happyhead.home.HomeActivity;
 
@@ -38,7 +38,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
     private RegisterViewModel registerViewModel;
     private FirebaseAuth mAuth;
-   // private FirebaseFirestore db;
+    private FirebaseFirestore db;
     private EditText nameEditText;
     private EditText usernameEditText;
     private EditText passwordEditText;
@@ -53,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         registerViewModel = new ViewModelProvider(this, new RegisterViewModelFactory()).get(RegisterViewModel.class);
 
         //initialize cloud firestore database and authentication
-        //db = FirebaseFirestore.getInstance();
+        db = FirebaseFirestore.getInstance();
         mAuth = FirebaseAuth.getInstance();
 
         // Setup dropdown list for gender
@@ -156,18 +156,18 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         user.put("DOB", dob);
         user.put("Country", country);
         user.put("Gender", gender);
-//
-//        db.collection("users").document(UID).set(user).addOnSuccessListener(this, new OnSuccessListener<Void>() {
-//            @Override
-//            public void onSuccess(Void aVoid) {
-//                Log.w("SUCCESS","DocumentSnapshot added with ID:");
-//            }
-//        }).addOnFailureListener(this, new OnFailureListener() {
-//            @Override
-//            public void onFailure(@NonNull Exception e) {
-//                Log.w("Registration Failed", "Error adding document", e);
-//            }
-//        });
+
+        db.collection("users").document(UID).set(user).addOnSuccessListener(this, new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                Log.w("SUCCESS","DocumentSnapshot added with ID:");
+            }
+        }).addOnFailureListener(this, new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.w("Registration Failed", "Error adding document", e);
+            }
+        });
     }
 
     public void createAccount(String email, String password) {
