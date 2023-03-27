@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       // imageView = findViewById(R.id.imageView);
+        //imageView = findViewById(R.id.imageView);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -68,13 +68,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-//        switch(item.getItemId()){
-//
-//            case R.id.nav_home:
-//                Intent i_home = new Intent(this, HomeActivity.class);
-//                startActivity(i_home);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
+        switch(item.getItemId()){
+
+            case R.id.nav_home:
+                Intent i_home = new Intent(this, HomeActivity.class);
+                startActivity(i_home);
+                draw.closeDrawer(GravityCompat.START);
+                break;
 //
 //            case R.id.nav_profile:
 //                Log.d("Hi", "hello");
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //                emergencyDialog.show(getSupportFragmentManager(), "emergency");
 //                draw.closeDrawer(GravityCompat.START);
 //                break;
-//        }
+    }
 //
         return true;
     }
