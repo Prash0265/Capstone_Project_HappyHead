@@ -11,7 +11,7 @@
     android:paddingTop="16dp"
     android:orientation="vertical"
     android:background="#F2ECE0"
-    tools:context=".ui.bipolar.bipolarResultActivity">
+    tools:context=".bipolar.bipolarResultActivity">
 
     <ImageView
         android:id="@+id/Logo"
