@@ -68,13 +68,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-//        switch(item.getItemId()){
-//
-//            case R.id.nav_home:
-//                Intent i_home = new Intent(this, HomeActivity.class);
-//                startActivity(i_home);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
+        switch(item.getItemId()){
+
+            case R.id.nav_home:
+                Intent i_home = new Intent(this, HomeActivity.class);
+                startActivity(i_home);
+                draw.closeDrawer(GravityCompat.START);
+                break;
 //            case R.id.nav_profile:
 //                Log.d("Hi", "hello");
 //                Intent i_profile = new Intent(this, ProfileActivity.class);
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //                emergencyDialog.show(getSupportFragmentManager(), "emergency");
 //                draw.closeDrawer(GravityCompat.START);
 //                break;
-//    }
+    }
 //
         return true;
     }
