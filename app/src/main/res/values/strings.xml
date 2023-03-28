@@ -39,7 +39,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!-- Strings related to habits -->
-    <string name="habit_tracker">Habit Tracker</string>
+    <string name="habit_tracker">Habit tracker</string>
     <string name="habit_yes">Button for when habit successfully done</string>
     <string name="habit_no">Button for when habit not successfully done</string>
     <string name="new_habit">New Habit</string>
