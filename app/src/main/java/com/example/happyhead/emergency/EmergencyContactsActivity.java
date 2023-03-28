@@ -115,7 +115,7 @@ public class EmergencyContactsActivity extends MainActivity {
                                 if (contactName.getText().toString().isEmpty()) {
                                     Toast.makeText(EmergencyContactsActivity.this, "ERROR: Please specify contact name", Toast.LENGTH_SHORT).show();
                                 }
-                                if (phoneNumber.getText().toString().isEmpty() || (! isPhoneNumberValid(phoneNumber.getText().toString()))) {
+                                if (phoneNumber.getText().toString().isEmpty() || ( isPhoneNumberValid(phoneNumber.getText().toString()))) {
                                     Toast.makeText(EmergencyContactsActivity.this, "ERROR: Please enter a valid phone number", Toast.LENGTH_SHORT).show();
                                 }
                                 if (email.getText().toString().isEmpty() || (! isEmailValid(email.getText().toString()))) {
