@@ -26,16 +26,16 @@ import com.google.android.material.navigation.NavigationView;
 import com.example.happyhead.R;
 //TO DO
 import com.example.happyhead.Mood.MoodActivity;
-//import com.pacman.MentAlly.ui.ToDoList.ToDoListActivity;
-//import com.pacman.MentAlly.ui.ambient.AmbientActivity;
-//import com.pacman.MentAlly.ui.breathing.BreathingActivity;
-//import com.pacman.MentAlly.ui.emergency.EmergencyContactsActivity;
-//import com.pacman.MentAlly.ui.emergency.EmergencyDialogFragment;
-//import com.pacman.MentAlly.ui.habit.HabitTrackerActivity;
-//import com.pacman.MentAlly.ui.helpline.helplineActivity;
-//import com.pacman.MentAlly.ui.menu.WallpaperFragment;
+import com.example.happyhead.ToDoList.ToDoListActivity;
+import com.example.happyhead.ambient.AmbientActivity;
+import com.example.happyhead.breathing.BreathingActivity;
+import com.example.happyhead.emergency.EmergencyContactsActivity;
+import com.example.happyhead.emergency.EmergencyDialogFragment;
+import com.example.happyhead.habit.HabitTrackerActivity;
+import com.example.happyhead.helpline.helplineActivity;
+import com.example.happyhead.menu.WallpaperFragment;
 import com.example.happyhead.profile.*;
-//import com.pacman.MentAlly.ui.quiz.QuizActivity;
+import com.example.happyhead.quiz.QuizActivity;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -83,65 +83,65 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 draw.closeDrawer(GravityCompat.START);
                 Log.d("Hi", "hello");
                 break;
-//
-//            case R.id.nav_habit:
-//                Intent i_habit = new Intent(this, HabitTrackerActivity.class);
-//                startActivity(i_habit);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_todo:
-//                Intent i_todo = new Intent(this, ToDoListActivity.class);
-//                startActivity(i_todo);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_mood:
-//                Intent i_mood = new Intent(this, MoodActivity.class);
-//                startActivity(i_mood);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_breathe:
-//                Intent i_breathe = new Intent(this, BreathingActivity.class);
-//                startActivity(i_breathe);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_quiz:
-//                Intent i_quiz = new Intent(this, QuizActivity.class);
-//                startActivity(i_quiz);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_ambient:
-//                Intent i_ambient = new Intent(this, AmbientActivity.class);
-//                startActivity(i_ambient);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_wallpaper:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.frag_container, new WallpaperFragment()).commit();
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_contacts:
-//                Intent i_contacts = new Intent(this, EmergencyContactsActivity.class);
-//                startActivity(i_contacts);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_helpline:
-//                Intent i_help = new Intent(this, helplineActivity .class);
-//                startActivity(i_help);
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
-//
-//            case R.id.nav_emergency:
-//                DialogFragment emergencyDialog = new EmergencyDialogFragment();
-//                emergencyDialog.show(getSupportFragmentManager(), "emergency");
-//                draw.closeDrawer(GravityCompat.START);
-//                break;
+
+            case R.id.nav_habit:
+                Intent i_habit = new Intent(this, HabitTrackerActivity.class);
+                startActivity(i_habit);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_todo:
+                Intent i_todo = new Intent(this, ToDoListActivity.class);
+                startActivity(i_todo);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_mood:
+                Intent i_mood = new Intent(this, MoodActivity.class);
+                startActivity(i_mood);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_breathe:
+                Intent i_breathe = new Intent(this, BreathingActivity.class);
+                startActivity(i_breathe);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_quiz:
+                Intent i_quiz = new Intent(this, QuizActivity.class);
+                startActivity(i_quiz);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_ambient:
+                Intent i_ambient = new Intent(this, AmbientActivity.class);
+                startActivity(i_ambient);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_wallpaper:
+                getSupportFragmentManager().beginTransaction().replace(R.id.frag_container, new WallpaperFragment()).commit();
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_contacts:
+                Intent i_contacts = new Intent(this, EmergencyContactsActivity.class);
+                startActivity(i_contacts);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_helpline:
+                Intent i_help = new Intent(this, helplineActivity .class);
+                startActivity(i_help);
+                draw.closeDrawer(GravityCompat.START);
+                break;
+
+            case R.id.nav_emergency:
+                DialogFragment emergencyDialog = new EmergencyDialogFragment();
+                emergencyDialog.show(getSupportFragmentManager(), "emergency");
+                draw.closeDrawer(GravityCompat.START);
+                break;
     }
 //
         return true;
