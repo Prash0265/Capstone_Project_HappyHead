@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:layout_centerHorizontal="true"
-    android:orientation="vertical" >
-    tools:context=".ui.helpline.helplineActivity">
+    android:orientation="vertical"
+    tools:context=".helpline.helplineActivity">
 
     <ScrollView
         android:layout_width="match_parent"
