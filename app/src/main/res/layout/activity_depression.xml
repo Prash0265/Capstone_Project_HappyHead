@@ -16,7 +16,7 @@
         android:paddingRight="16dp"
         android:paddingTop="16dp"
         android:orientation="vertical"
-        tools:context=".ui.depression.depressionActivity">
+        tools:context=".depression.depressionActivity">
 
         <TextView
             android:id="@+id/general"
