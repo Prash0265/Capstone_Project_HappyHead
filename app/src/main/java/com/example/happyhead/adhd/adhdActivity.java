@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.example.happyhead.R;
 import com.example.happyhead.home.MainActivity;
 
+
 public class adhdActivity extends MainActivity {
 
     private adhdQuestionModel mQues = new adhdQuestionModel();
@@ -109,7 +110,7 @@ public class adhdActivity extends MainActivity {
         Bundle b = new Bundle();
         b.putInt("points",mPoint);
         i.putExtras(b);
-//        com.example.happyhead.adhd.adhdActivity.this.finish();
+        com.example.happyhead.adhd.adhdActivity.this.finish();
         startActivity(i);
     }
 }
