@@ -10,5 +10,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorDayT">#ffff7a</color>
     <color name="colorDayB">#a0e6ff</color>
+    <color name="downArrow">#ffbdff</color>
+    <color name="upArrow">#ddffca</color>
 </resources>
 
