@@ -29,8 +29,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
-import com.pacman.MentAlly.R;
-import com.pacman.MentAlly.ui.home.MainActivity;
+import com.example.happyhead.R;
+import com.example.happyhead.home.MainActivity;
 
 import java.util.ArrayList;
 import java.util.Calendar;
