@@ -25,7 +25,7 @@ import androidx.fragment.app.DialogFragment;
 import com.google.android.material.navigation.NavigationView;
 import com.example.happyhead.R;
 //TO DO
-//import com.pacman.MentAlly.ui.Mood.MoodActivity;
+import com.example.happyhead.Mood.MoodActivity;
 //import com.pacman.MentAlly.ui.ToDoList.ToDoListActivity;
 //import com.pacman.MentAlly.ui.ambient.AmbientActivity;
 //import com.pacman.MentAlly.ui.breathing.BreathingActivity;
@@ -34,7 +34,7 @@ import com.example.happyhead.R;
 //import com.pacman.MentAlly.ui.habit.HabitTrackerActivity;
 //import com.pacman.MentAlly.ui.helpline.helplineActivity;
 //import com.pacman.MentAlly.ui.menu.WallpaperFragment;
-//import com.pacman.MentAlly.ui.profile.ProfileActivity;
+//import com.example.happyhead.profile.ProfileActivity;
 //import com.pacman.MentAlly.ui.quiz.QuizActivity;
 
 
