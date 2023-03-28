@@ -34,7 +34,7 @@ import com.example.happyhead.Mood.MoodActivity;
 //import com.pacman.MentAlly.ui.habit.HabitTrackerActivity;
 //import com.pacman.MentAlly.ui.helpline.helplineActivity;
 //import com.pacman.MentAlly.ui.menu.WallpaperFragment;
-//import com.example.happyhead.profile.ProfileActivity;
+import com.example.happyhead.profile.*;
 //import com.pacman.MentAlly.ui.quiz.QuizActivity;
 
 
@@ -76,13 +76,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 draw.closeDrawer(GravityCompat.START);
                 break;
 
-//            case R.id.nav_profile:
-//                Log.d("Hi", "hello");
-//                Intent i_profile = new Intent(this, ProfileActivity.class);
-//                startActivity(i_profile);
-//                draw.closeDrawer(GravityCompat.START);
-//                Log.d("Hi", "hello");
-//                break;
+            case R.id.nav_profile:
+                Log.d("Hi", "hello");
+                Intent i_profile = new Intent(this, ProfileActivity.class);
+                startActivity(i_profile);
+                draw.closeDrawer(GravityCompat.START);
+                Log.d("Hi", "hello");
+                break;
 //
 //            case R.id.nav_habit:
 //                Intent i_habit = new Intent(this, HabitTrackerActivity.class);
