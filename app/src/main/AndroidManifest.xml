@@ -31,6 +31,77 @@
             android:name=".register.RegisterActivity"
             android:label="Happy Head">
         </activity>
+
+        <!-- Main Page -->
+        <activity android:name=".home.MainActivity" />
+
+        <!-- Profile Page -->
+        <activity android:name=".profile.ProfileActivity" />
+
+        <!-- Todo List -->
+        <activity android:name=".ToDoList.ToDoListActivity" />
+
+        <!-- ADHD Questionnaire -->
+        <activity android:name=".adhd.adhdActivity" />
+        <activity android:name=".adhd.adhdResultActivity" />
+
+        <!-- Anxiety Questionnaire -->
+        <activity android:name=".anxiety.anxietyActivity" />
+        <activity android:name=".anxiety.anxietyResultActivity" />
+
+        <!-- Bipolar Questionnaire -->
+        <activity android:name=".bipolar.bipolarActivity" />
+        <activity android:name=".bipolar.bipolarResultActivity" />
+
+        <activity android:name=".helpline.helplineActivity" />
+
+        <!-- Depression Questionnaire -->
+        <activity android:name=".depression.depressionActivity" />
+        <activity android:name=".depression.depressionResultActivity" />
+
+        <!-- OCD Questionnaire -->
+        <activity android:name=".ocd.ocdActivity" />
+        <activity android:name=".ocd.ocdResultActivity" />
+
+        <!-- PTSD Questionnaire -->
+        <activity android:name=".ptsd.ptsd" />
+        <activity android:name=".ptsd.ptsdActivity" />
+        <activity android:name=".ptsd.ptsdResultActivity" />
+
+        <!-- Mood Page -->
+        <activity android:name=".Mood.MoodActivity" />
+        <activity android:name=".Mood.AddMoodActivity" /> <!-- Habit Page -->
+        <activity android:name=".habit.HabitTrackerActivity" />
+        <activity android:name=".habit.NewHabitActivity" /> <!-- Breathing Page -->
+        <activity
+            android:name=".breathing.BreathingActivity"
+            android:label="Happy Head" />
+        <activity
+            android:name=".breathing.BreathingExerciseActivity"
+            android:label="Happy Head" />
+
+        <!-- Ambient Noise Player-->
+        <activity android:name=".ambient.AmbientActivity"/>
+        <service android:name=".ambient.MediaPlaybackService"
+            android:exported="true">
+            <intent-filter><action android:name="android.media.browse.MediaBrowserService"/></intent-filter>
+        </service>
+
+        <!-- Emergency Contacts -->
+        <activity android:name=".emergency.EmergencyContactsActivity" />
+
+        <activity android:name=".home.HomeActivity">
+        </activity>
+
+        <activity android:name=".quiz.QuizActivity" />
+
+<!--        <meta-data-->
+<!--            android:name="preloaded_fonts"-->
+<!--            android:resource="@array/preloaded_fonts" />-->
     </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!--    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>-->
+    <uses-permission android:name="android.permission.SEND_SMS"/>
 
 </manifest>
