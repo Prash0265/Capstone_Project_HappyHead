@@ -26,7 +26,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.kidsHelpCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:1-866-925-5454");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -40,7 +40,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.safeHavenCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:403-223-0483");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -54,7 +54,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.transLifelineCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:877-330-6366");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -68,7 +68,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.chimoHelpCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:1-800-667-5005");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -82,7 +82,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.someOtherCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:780-743-4357");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -96,7 +96,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.cmhaCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:1-888-811-2222");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -110,7 +110,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.crisisServicesCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:1-833-456-4566");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -124,7 +124,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.hopeForWellnessCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:1-855-242-3310");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -138,7 +138,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.nedicCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:1-866-633-4220");
+                call("tel:1-437-556-5318");
             }
         });
 
@@ -152,7 +152,7 @@ public class helplineActivity extends MainActivity {
 
         findViewById(R.id.drugRehabCall).setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                call("tel:1-877-746-1963");
+                call("tel:1-437-556-5318");
             }
         });
 
