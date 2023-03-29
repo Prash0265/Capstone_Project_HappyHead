@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,20 +43,20 @@ public class AddMoodActivity extends AppCompatActivity {
     TextView descbox;
     ImageView calendar;
 
-    Button happy;
-    Button sad;
-    Button cool;
-    Button scared;
-    Button lovely;
-    Button depressed;
-    Button flushed;
-    Button angel;
-    Button neutral;
-    Button sick;
-    Button nerd;
-    Button sleepy;
-    Button devil;
-    Button angry;
+    ImageButton happy;
+    ImageButton sad;
+    ImageButton cool;
+    ImageButton scared;
+    ImageButton lovely;
+    ImageButton depressed;
+    ImageButton flushed;
+    ImageButton angel;
+    ImageButton neutral;
+    ImageButton sick;
+    ImageButton nerd;
+    ImageButton sleepy;
+    ImageButton devil;
+    ImageButton angry;
     Button addmood;
 
 
@@ -98,7 +99,6 @@ public class AddMoodActivity extends AppCompatActivity {
         angel = findViewById(R.id.angel);
         sleepy = findViewById(R.id.sleepy);
         angry = findViewById(R.id.angry);
-
         addmood = findViewById(R.id.addmood);
 
 
