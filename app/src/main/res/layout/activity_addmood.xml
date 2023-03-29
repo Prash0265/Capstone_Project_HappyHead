@@ -32,7 +32,6 @@
                 android:id="@+id/subtitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/arima_madurai_extrabold"
                 android:textStyle="bold"
                 android:paddingVertical="20sp"
                 android:text="Log New Mood"
@@ -168,45 +167,45 @@
                     android:layout_gravity="center"
                     android:padding="0dp">
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/happy"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:background="@drawable/happy"/>
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/sad"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/sad"
                         android:layout_weight="1" />
-                    <Button
+                    <ImageButton
                         android:id="@+id/cool"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/cool"
                         android:layout_weight="1" />
-                    <Button
+                    <ImageButton
                         android:id="@+id/lovely"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/lovely"
                         android:contentDescription="lovely"
                         android:layout_weight="1"/>
-                    <Button
+                    <ImageButton
                         android:id="@+id/scared"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/scared"
                         android:layout_weight="1"/>
-                    <Button
+                    <ImageButton
                         android:id="@+id/nerd"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:background="@drawable/nerd"/>
-                    <Button
+                    <ImageButton
                         android:id="@+id/sick"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -232,44 +231,44 @@
                     android:layout_gravity="center"
                     android:padding="0dp">
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/neutral"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:background="@drawable/neutral"/>
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/flushed"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/flushed"
                         android:layout_weight="1" />
-                    <Button
+                    <ImageButton
                         android:id="@+id/depressed"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/depressed"
                         android:layout_weight="1" />
-                    <Button
+                    <ImageButton
                         android:id="@+id/angel"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/angel"
                         android:layout_weight="1"/>
-                    <Button
+                    <ImageButton
                         android:id="@+id/sleepy"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:background="@drawable/sleepy"
                         android:layout_weight="1"/>
-                    <Button
+                    <ImageButton
                         android:id="@+id/angry"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:background="@drawable/angry"/>
-                    <Button
+                    <ImageButton
                         android:id="@+id/devil"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
