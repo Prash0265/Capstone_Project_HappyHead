@@ -27,7 +27,7 @@ public class AmbientActivity extends MainActivity implements Observer {
     public static final String Broadcast_PAUSE_AUDIO = "com.pacman.MentAlly.ui.ambient.PauseAudio";
 
     private AudioAdapter adapter;
-    private final ArrayList<AudioFile> audioList = new ArrayList<>();
+    private ArrayList<AudioFile> audioList = new ArrayList<>();
     private AudioFile nowPlaying = null;
 
     private MediaPlaybackService audioService;
